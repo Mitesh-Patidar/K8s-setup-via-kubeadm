@@ -55,6 +55,7 @@ chown $(id -u):$(id -g) $HOME/.kube/config
 # Install Calico
 kubectl apply -f https://raw.githubusercontent.com/projectcalico/calico/v3.27.0/manifests/calico.yaml
 
-echo "✅ Master setup complete."
-echo "🔑 Now run the following on your worker node (copy from below):"
+echo " Master setup complete."
+echo " Now run the following on your worker node (copy from below):"
+
 kubeadm token create --print-join-command
