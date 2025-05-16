@@ -54,7 +54,7 @@ sudo apt update && sudo apt upgrade -y
 ```bash
 sudo dnf update -y
 ```
-### 5. Reboot
+### 5. Reboot  (No need if using Amazon Linux 2023)
 Apply changes by rebooting:
 ```bash
 sudo reboot
