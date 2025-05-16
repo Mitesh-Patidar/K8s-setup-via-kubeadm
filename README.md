@@ -59,7 +59,7 @@ Apply changes by rebooting:
 ```bash
 sudo reboot
 ```
- Note: On cloud servers like AWS, rebooting will disconnect your SSH session. You will need to reconnect using your PEM file or credentials. In production, ensure reboots do not disrupt live services.
+ Note: On cloud servers like AWS, rebooting will disconnect your SSH session. You will need to reconnect using your PEM file or credentials.
 ##
 ### Important Note on `sudo reboot`
 
