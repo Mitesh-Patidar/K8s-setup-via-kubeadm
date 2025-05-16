@@ -54,9 +54,9 @@ Apply changes by rebooting:
 ```bash
 sudo reboot
 ```
-⚠️ Note: On cloud servers like AWS, rebooting will disconnect your SSH session. You will need to reconnect using your PEM file or credentials. In production, ensure reboots do not disrupt live services.
+ Note: On cloud servers like AWS, rebooting will disconnect your SSH session. You will need to reconnect using your PEM file or credentials. In production, ensure reboots do not disrupt live services.
 ##
-### 🔁 Important Note on `sudo reboot`
+### Important Note on `sudo reboot`
 
 This guide includes a `sudo reboot` command to apply updates and hostname changes. Please be aware of the following:
 
@@ -65,5 +65,8 @@ This guide includes a `sudo reboot` command to apply updates and hostname change
   - Ensure reboots are done during maintenance windows or in coordination with your DevOps team.
   - In real production clusters, node reboots are typically handled via automated orchestration tools with proper draining and safety mechanisms.
 
-⚠️ Only run `sudo reboot` if you fully understand the impact in your specific environment.
+ Only run `sudo reboot` if you fully understand the impact in your specific environment.
+
+###  Contributing
+Feel free to fork, modify, and open pull requests to improve or extend the setup.
 
