@@ -38,7 +38,7 @@ On the worker node:
 sudo hostnamectl set-hostname worker
 ```
 ### 3. Update /etc/hosts File
-On both nodes, add the following lines (replace IPs accordingly):
+On both nodes, run the following lines (replace IPs accordingly):
 ```bash
 echo "<private_ip_of_master> master" | sudo tee -a /etc/hosts
 echo "<private_ip_of_worker> worker" | sudo tee -a /etc/hosts
